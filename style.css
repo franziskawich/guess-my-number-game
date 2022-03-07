@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+p,
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  width: 85%;
+  max-width: 18.75rem;
+  margin: 0 auto;
+  color: whitesmoke;
+  background: rgb(14, 20, 31);
+  background-image: url(images/green-dust-and-scratches.png);
+}
+
+.game__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.game__input {
+  max-width: 5rem;
+}
+
+.btn {
+  max-width: 5rem;
+}

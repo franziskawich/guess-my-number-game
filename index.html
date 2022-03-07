@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/alien--1.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <title>Guess my number (game)</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="main-heading">Guess my number</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="overview">
+          <img
+            class="img"
+            src="images/alien--1.png"
+            alt="Head of a smiling alien with one eye and two antennae."
+          />
+          <p class="overview__description">
+            Greetings, human being! Can you guess my number between 1 and 50 in
+            only 10 tries?
+          </p>
+        </div>
+        <div class="game flex">
+          <div class="game__left">
+            <input class="game__input" type="number" min="1" max="50" />
+            <button class="btn btn--check">Check</button>
+            <div class="game__attempts">
+              <p class="game__attempts heading">Attempts:</p>
+              <p class="game__attempts-score score">10</p>
+            </div>
+          </div>
+          <div class="game__right">
+            <p class="game__number">?</p>
+            <p class="game__message">Test</p>
+            <div class="game__highscore">
+              <p class="game__highscore heading">Highscore:</p>
+              <p class="game__highscore-score score">0</p>
+            </div>
+            <div class="game__restart">
+              <button class="btn btn--restart">Restart &#8634;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer flex">
+      <p class="footer__copyright">
+        &copy; 2022
+        <a
+          target="_blank"
+          class="footer__link footer__link--author"
+          href="https://github.com/franziskawich"
+          >Franziska Wich</a
+        >
+      </p>
+      <p class="footer__img-sources">
+        Images:
+        <a target="_blank" href="https://icons8.com/" class="footer__link"
+          >Icons8</a
+        >
+        and
+        <a
+          target="_blank"
+          href="https://www.transparenttextures.com/green-dust-and-scratches.html"
+          class="footer__link"
+          >Transparent Textures</a
+        >
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
