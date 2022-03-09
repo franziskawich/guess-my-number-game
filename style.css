@@ -21,6 +21,7 @@ img {
 body {
   box-sizing: inherit;
   font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
 }
 
 .flex {
@@ -29,17 +30,44 @@ body {
 }
 
 .container {
-  width: 85%;
-  max-width: 18.75rem;
-  margin: 0 auto;
+  width: 90%;
+  max-width: 13.75rem;
+  margin: 0 auto 1.5rem;
+  padding: 2.5rem;
   color: whitesmoke;
   background: rgb(14, 20, 31);
   background-image: url(images/green-dust-and-scratches.png);
+  outline: 3px solid rgba(255, 255, 255, 0.3);
+  outline-offset: -1.25rem;
+  border-radius: 2.25rem;
+}
+
+.main-heading {
+  text-align: center;
+  margin: 1.25rem 0;
+  font-weight: 900;
+  border: 1px solid rebeccapurple;
+}
+
+.overview {
+  border: 1px solid yellow;
+  font-weight: 700;
+}
+
+.overview__description {
+  margin: 1rem 0 2rem;
+  line-height: 1.6;
+  font-size: 0.825rem;
 }
 
 .game__left {
   display: flex;
   flex-direction: column;
+  border: 1px solid green;
+}
+
+.game__right {
+  border: 1px solid green;
 }
 
 .game__input {
@@ -48,4 +76,9 @@ body {
 
 .btn {
   max-width: 5rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.7rem;
 }

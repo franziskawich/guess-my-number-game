@@ -38,6 +38,16 @@ Blaah
 
 ### What I learned
 
+I wanted an inner border with a border-radius for my main content, which is not possible with the `border` CSS property. I have heard about `outline` before, but I didn't know then that I could combine it with `border-radius`:
+
+```css
+outline: 3px solid rgba(255, 255, 255, 0.3);
+outline-offset: -1.5rem;
+border-radius: 2.25rem;
+```
+
+However, it is a bit strange that the outline becomes rectangular when you make the `border-radius` relatively small. Unfortunately, I don't know why this happens.
+
 ### Useful resources
 
 - []() - Reason
