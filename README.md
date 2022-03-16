@@ -48,9 +48,14 @@ border-radius: 2.25rem;
 
 However, it is a bit strange that the outline becomes rectangular when you make the `border-radius` relatively small. Unfortunately, I don't know why this happens.
 
+I wanted to use `autofocus` on the `<input>` element at first, but I reconsidered it after reading about how it could confuse visually-impaired people and people with cognitive impairments.
+
+I have learned that it is always good to use a label for an input.
+
 ### Useful resources
 
-- []() - Reason
+- [MDN: <input>-attribute autofocus](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-autofocus) - Useful explanation for the use of the autofocus attribute.
+- [CSS-Tricks: HTML Inputs and Labels: A Love Story](https://css-tricks.com/html-inputs-and-labels-a-love-story/) - Useful article that helped me decide whether or not to use a `<label>` for my `<input>` element.
 
 ## Author
 

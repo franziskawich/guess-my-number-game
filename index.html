@@ -37,7 +37,16 @@
         </div>
         <div class="game flex">
           <div class="game__left">
-            <input class="game__input" type="number" min="1" max="50" />
+            <label for="guess">Enter your guess:</label>
+            <input
+              name="guess"
+              class="game__input"
+              id="guess"
+              type="number"
+              min="1"
+              max="50"
+            />
+
             <button class="btn btn--check">Check</button>
             <div class="game__attempts">
               <p class="game__attempts heading">Attempts:</p>

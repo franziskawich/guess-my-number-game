@@ -32,6 +32,7 @@ body {
 .container {
   width: 90%;
   max-width: 13.75rem;
+  font-size: 0.825rem;
   margin: 0 auto 1.5rem;
   padding: 2.5rem;
   color: whitesmoke;
@@ -50,28 +51,61 @@ body {
 }
 
 .overview {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   font-weight: 700;
 }
 
 .overview__description {
-  margin: 1rem 0 2rem;
+  margin: 1rem 0 1.5rem;
   line-height: 1.6;
-  font-size: 0.825rem;
 }
 
 .game__left {
   display: flex;
   flex-direction: column;
+  align-items: center;
   border: 1px solid green;
+  max-width: max-content;
 }
 
 .game__right {
   border: 1px solid green;
+  /* max-width: min-content; */
+  /* font-size: 0.85rem; */
 }
 
 .game__input {
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 2.25rem;
+  font-size: 1.3rem;
+  /* max-width: 5rem; */
+  padding: 0.5rem;
+  margin: 0 0 0.5rem;
+  /* align-self: center; */
+}
+
+label {
+  font-size: 0.5rem;
+  margin: 0 0 0.5rem;
+}
+
+.game__number {
+  background-color: goldenrod;
+  color: rgb(14, 20, 31);
+  text-align: center;
   max-width: 5rem;
+  border-radius: 2.25rem;
+  padding: 0.75rem;
+  margin: 1.125rem 0 0.5rem;
+  font-weight: 700;
 }
 
 .btn {
