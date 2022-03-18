@@ -48,7 +48,7 @@ border-radius: 2.25rem;
 
 However, it is a bit strange that the outline becomes rectangular when you make the `border-radius` relatively small. Unfortunately, I don't know why this happens.
 
-I wanted to use `autofocus` on the `<input>` element at first, but I reconsidered it after reading about how it could confuse visually-impaired people and people with cognitive impairments.
+At first I wanted to add `autofocus` to the `<input>` element, but I reconsidered after reading that this could confuse visually-impaired people and people with cognitive impairments.
 
 I have learned that it is always good to use a label for an input.
 
