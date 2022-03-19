@@ -26,7 +26,7 @@ The user has to guess a random number between 1 and 50 correctly in 10 attempts 
 
 ### Links
 
-- URL: [https://github.com/franziskawich/](https://github.com/franziskawich/guess-my-number-game)
+- URL: [https://github.com/franziskawich/guess-my-number-game](https://github.com/franziskawich/guess-my-number-game)
 - Live Site URL: [https://franziskawich.github.io/guess-my-number-game/](https://franziskawich.github.io/guess-my-number-game/)
 
 ## My process
@@ -63,7 +63,7 @@ I relearned the order of pseudo-classes for anchors: a:link, a:visited, a:hover 
 
 - [MDN: <input>-attribute autofocus](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-autofocus) - Useful explanation for the use of the autofocus attribute.
 - [CSS-Tricks: HTML Inputs and Labels: A Love Story](https://css-tricks.com/html-inputs-and-labels-a-love-story/) - Useful article that helped me decide whether or not to use a `<label>` for my `<input>` element.
-- [w3schools](https://www.w3schools.com/css/css_pseudo_classes.asp) - Useful to remember the order of pseudo-classes for an anchor.
+- [w3schools: Anchor Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp) - Useful to remember the order of pseudo-classes for an anchor.
 
 ## Author
 
