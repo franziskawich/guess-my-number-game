@@ -1,6 +1,6 @@
 'use strict';
 
-// Selecting elements
+// Selecting necessary elements
 let secretNumber = document.querySelector('.game__number');
 let message = document.querySelector('.game__message');
 let btnCheck = document.querySelector('.btn--check');
@@ -36,7 +36,7 @@ const startGame = () => {
 const checkGuess = function () {
   // wrong input
   if (guess.value < 1 || guess.value > 50) {
-    displayMessage(`Not a number between 1 and 50!`);
+    displayMessage(`Wrong input (1-50)!`);
   }
   // guess is the correct secret number
   else if (guess.value === randomNumber) {
@@ -57,7 +57,7 @@ const checkGuess = function () {
     if (counterOfAttempts === 0) {
       play = false;
       displayMessage(`You lost. Try again.`);
-      changeBorder('red');
+      changeBorder('darkred');
     }
   }
 };

@@ -18,9 +18,11 @@ This is a small game based on a project from a JS course (The Complete JavaScrip
 
 ### The game explained
 
-Blaah
+The user has to guess a random number between 1 and 50 correctly in 10 attempts and can try to beat their own high score by trying again. If the user guesses wrong, a message is displayed indicating whether the guess was too low or too high. The user loses the game when they cannot guess the secret number in 10 attempts.
 
 ### Screenshot
+
+![Screenshot](/design/screenshot.PNG)
 
 ### Links
 
@@ -31,11 +33,11 @@ Blaah
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5
 - CSS
-- JS
-- Mobile-first workflow
+- JavaScript
 - BEM
+- Mobile-first workflow
 
 ### What I learned
 
@@ -53,12 +55,15 @@ At first I wanted to add `autofocus` to the `<input>` element, but I reconsidere
 
 I have learned that it is always good to use a label for an input.
 
-It was a bit difficult to arrange the elements at the same height in this two-column layout. I achieved my goal, but there is probably a more elegant solution.
+It was a bit difficult to arrange the elements at the same height in the two-column layout. I achieved my goal, but there is probably a more elegant solution.
+
+I relearned the order of pseudo-classes for anchors: a:link, a:visited, a:hover and then a:active.
 
 ### Useful resources
 
 - [MDN: <input>-attribute autofocus](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-autofocus) - Useful explanation for the use of the autofocus attribute.
 - [CSS-Tricks: HTML Inputs and Labels: A Love Story](https://css-tricks.com/html-inputs-and-labels-a-love-story/) - Useful article that helped me decide whether or not to use a `<label>` for my `<input>` element.
+- [w3schools](https://www.w3schools.com/css/css_pseudo_classes.asp) - Useful to remember the order of pseudo-classes for an anchor.
 
 ## Author
 
