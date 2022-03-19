@@ -21,7 +21,7 @@ img {
 body {
   box-sizing: inherit;
   font-family: 'Orbitron', sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 0.1rem;
 }
 
 .flex {
@@ -29,18 +29,25 @@ body {
   justify-content: space-around;
 }
 
+.highlight {
+  color: goldenrod;
+  font-weight: bolder;
+}
+
 .container {
   width: 90%;
-  max-width: 13.75rem;
-  font-size: 0.825rem;
+  max-width: 14.5rem;
+  font-size: 1rem;
   margin: 0 auto 1.5rem;
-  padding: 2.5rem;
+  padding: 2rem;
   color: whitesmoke;
   background: rgb(14, 20, 31);
   background-image: url(images/green-dust-and-scratches.png);
   outline: 3px solid rgba(255, 255, 255, 0.3);
   outline-offset: -1.25rem;
   border-radius: 2.25rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* border: 1px solid yellowgreen; */
 }
 
 .main-heading {
@@ -50,26 +57,44 @@ body {
   border: 1px solid rebeccapurple;
 }
 
+.heading {
+  margin: 0.8rem 0 0;
+  /* font-weight: normal; */
+  /* color: green; */
+}
+
 .overview {
   /* border: 1px solid yellow; */
-  font-weight: 700;
+  /* font-weight: 700; */
+  text-align: center;
 }
 
 .overview__description {
   margin: 1rem 0 1.5rem;
-  line-height: 1.6;
+  line-height: 1.8;
+}
+
+.game {
+  /* text-align: center; */
+  line-height: 1.8;
 }
 
 .game__left {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid green;
-  max-width: max-content;
+  /* align-items: center; */
+  max-width: 38%;
+  /* border: 1px solid green; */
+  /* max-width: max-content; */
 }
 
 .game__right {
-  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  max-width: 38%;
+  /* align-items: center; */
+  /* max-width: max-content; */
+  /* border: 1px solid green; */
   /* max-width: min-content; */
   /* font-size: 0.85rem; */
 }
@@ -93,7 +118,8 @@ body {
 }
 
 label {
-  font-size: 0.5rem;
+  font-size: 0.65rem;
+  min-height: 3rem;
   margin: 0 0 0.5rem;
 }
 
@@ -101,22 +127,46 @@ label {
   background-color: goldenrod;
   color: rgb(14, 20, 31);
   text-align: center;
-  /* max-width: 5rem; */
+  line-height: initial;
+  /* display: block; */
+  font-size: 1.3rem;
   border-radius: 2.25rem;
-  padding: 0.75rem;
-  margin: 1.125rem 0 0.5rem;
+  padding: 0.5rem;
+  margin: 0 0 0.5rem;
   font-weight: 700;
 }
 
 .game__message {
-  font-size: 0.5rem;
+  font-size: 0.65rem;
+  font-weight: bolder;
+  min-height: 3rem;
+  color: goldenrod;
+  margin: 0 0 0.5rem;
+  hyphens: auto;
 }
 
 .btn {
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-family: 'Orbitron', sans-serif;
+  color: whitesmoke;
+  padding: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2.25rem;
   max-width: 5rem;
 }
 
 .footer {
   text-align: center;
+  line-height: 1.5;
   font-size: 0.7rem;
+  margin: 0 0 0.5rem;
+}
+
+.footer__img-sources {
+  margin: 0 0 0.5rem;
 }

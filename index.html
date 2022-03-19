@@ -31,13 +31,14 @@
             alt="Head of a smiling alien with one eye and two antennae."
           />
           <p class="overview__description">
-            Greetings, human being! Can you guess my number between 1 and 50 in
-            only 10 tries?
+            Can you guess my
+            <span class="highlight">number</span> between
+            <span class="highlight">1 and 50</span> in only
+            <span class="highlight">10</span> tries?
           </p>
         </div>
         <div class="game flex">
           <div class="game__left">
-            <label for="guess">Enter your guess:</label>
             <input
               name="guess"
               class="game__input"
@@ -46,37 +47,26 @@
               min="1"
               max="50"
             />
-
+            <label for="guess">Enter your guess.</label>
             <button class="btn btn--check">Check</button>
             <div class="game__attempts">
               <p class="game__attempts heading">Attempts:</p>
-              <p class="game__attempts-score score">10</p>
+              <p class="game__attempts-score highlight">10</p>
             </div>
           </div>
           <div class="game__right">
             <p class="game__number">?</p>
             <p class="game__message">Test</p>
+            <button class="btn btn--restart">Restart</button>
             <div class="game__highscore">
               <p class="game__highscore heading">Highscore:</p>
-              <p class="game__highscore-score score">0</p>
-            </div>
-            <div class="game__restart">
-              <button class="btn btn--restart">Restart &#8634;</button>
+              <p class="game__highscore-score highlight">0</p>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <footer class="footer flex">
-      <p class="footer__copyright">
-        &copy; 2022
-        <a
-          target="_blank"
-          class="footer__link footer__link--author"
-          href="https://github.com/franziskawich"
-          >Franziska Wich</a
-        >
-      </p>
+    <footer class="footer">
       <p class="footer__img-sources">
         Images:
         <a target="_blank" href="https://icons8.com/" class="footer__link"
@@ -88,6 +78,15 @@
           href="https://www.transparenttextures.com/green-dust-and-scratches.html"
           class="footer__link"
           >Transparent Textures</a
+        >
+      </p>
+      <p class="footer__copyright">
+        &copy; 2022
+        <a
+          target="_blank"
+          class="footer__link footer__link--author"
+          href="https://github.com/franziskawich"
+          >Franziska Wich</a
         >
       </p>
     </footer>

@@ -33,6 +33,7 @@ Blaah
 
 - Semantic HTML5 markup
 - CSS
+- JS
 - Mobile-first workflow
 - BEM
 
@@ -51,6 +52,8 @@ However, it is a bit strange that the outline becomes rectangular when you make 
 At first I wanted to add `autofocus` to the `<input>` element, but I reconsidered after reading that this could confuse visually-impaired people and people with cognitive impairments.
 
 I have learned that it is always good to use a label for an input.
+
+It was a bit difficult to arrange the elements at the same height in this two-column layout. I achieved my goal, but there is probably a more elegant solution.
 
 ### Useful resources
 
