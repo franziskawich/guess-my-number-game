@@ -43,6 +43,7 @@ const checkGuess = function () {
     displayMessage(`Correct number!`);
     changeBorder('goldenrod');
     secretNumberText(randomNumber);
+    play = false;
 
     // highscore is better than current highscore
     if (highscore.textContent >= currentHighscore) {
