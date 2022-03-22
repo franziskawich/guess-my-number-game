@@ -51,7 +51,9 @@ const checkGuess = function () {
     }
     // guess is not the secret number and there are attempts left
   } else if (guess.value !== randomNumber && counterOfAttempts > 0) {
-    displayMessage(guess.value > randomNumber ? `Too high.` : `Too low.`);
+    displayMessage(
+      Number(guess.value) > randomNumber ? `Too high.` : `Too low.`
+    );
     counterOfAttempts--;
     attemptsText(counterOfAttempts);
     // no attempt left - game over
